@@ -1,0 +1,66 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.sign-up
+{
+    border: solid 2px black;
+    margin: auto;
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.element
+{
+   
+    position: relative;
+}
+.element > img {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+  }
+
+.element > input {
+    padding-left: 40px;
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+  }
+.container
+{
+    display: flex;
+}
+button
+{
+    color: white;
+    background-color:#082032 ;
+    padding: 10px;
+    width: 350px;
+}
+.head-prt
+{
+    margin: auto;
+    
+    width: 350px;
+    height: 200px;
+}
+.head-prt img
+{
+    width: 350px;
+    height: 250px;
+}
+.heading-text
+{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color:#082032 ;
+}
+.heading-text a
+{
+    text-decoration: none;
+}
